@@ -1,0 +1,6 @@
+framework module konashi_ios_sdk {
+  umbrella header "konashi-ios-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

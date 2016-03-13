@@ -1,0 +1,28 @@
+//
+//  ANKSoftHapticPatternGeneratorModule.m
+//  Pods
+//
+//  Created by Akira Matsuda on 3/13/16.
+//
+//
+
+#import "ANKSoftHapticPatternGeneratorModule.h"
+
+@implementation ANKSoftHapticPatternGeneratorModule
+
+#pragma mark - ANKModuleCommunicationProtocol
+
+- (void)sendData:(id)data
+{
+	[self.output receiveDataFromModule:self data:data];
+}
+
+- (void)receiveDataFromModule:(ANKModule *)module data:(id)data
+{
+	BOOL input = (BOOL)[data boolValue];
+	if (input) {
+		[self sendData:@(self.pattern)];
+	}
+}
+
+@end

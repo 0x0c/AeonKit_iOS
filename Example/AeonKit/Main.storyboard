@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +16,51 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtV-UE-lNs">
+                                <rect key="frame" x="20" y="66" width="66" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1HO-wd-9CV"/>
+                                    <constraint firstAttribute="width" constant="66" id="Vy9-IU-b7i"/>
+                                </constraints>
+                                <state key="normal" title="set depth"/>
+                                <connections>
+                                    <action selector="updateDepth:" destination="whP-gf-Uak" eventType="touchUpInside" id="H77-SY-lBx"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="byZ-lK-2mv">
+                                <rect key="frame" x="20" y="28" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIx-nn-NBq">
+                                <rect key="frame" x="94" y="66" width="170" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="VfL-W4-PKK"/>
+                                    <constraint firstAttribute="height" constant="30" id="gSZ-wd-3Rg"/>
+                                </constraints>
+                                <state key="normal" title="change comparison type"/>
+                                <connections>
+                                    <action selector="changeComparisonType:" destination="whP-gf-Uak" eventType="touchUpInside" id="ci3-pH-PqZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KIx-nn-NBq" firstAttribute="top" secondItem="byZ-lK-2mv" secondAttribute="bottom" constant="8" id="1dD-WB-L9D"/>
+                            <constraint firstItem="KIx-nn-NBq" firstAttribute="leading" secondItem="GtV-UE-lNs" secondAttribute="trailing" constant="8" id="1lH-lO-W88"/>
+                            <constraint firstItem="byZ-lK-2mv" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="Jmv-tV-FLQ"/>
+                            <constraint firstItem="GtV-UE-lNs" firstAttribute="top" secondItem="byZ-lK-2mv" secondAttribute="bottom" constant="8" id="O5A-fs-3WJ"/>
+                            <constraint firstItem="GtV-UE-lNs" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="kBW-BU-404"/>
+                            <constraint firstItem="byZ-lK-2mv" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="nG5-no-iMB"/>
+                            <constraint firstItem="byZ-lK-2mv" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="oV1-ea-wVF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="changeComparisonTypeButton" destination="KIx-nn-NBq" id="WSj-mv-X9X"/>
+                        <outlet property="depthSettingButton" destination="GtV-UE-lNs" id="is3-0Q-Khf"/>
+                        <outlet property="depthValueTextField" destination="byZ-lK-2mv" id="Tx1-NH-hDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

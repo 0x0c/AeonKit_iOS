@@ -1,0 +1,6 @@
+framework module AeonKit {
+  umbrella header "AeonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

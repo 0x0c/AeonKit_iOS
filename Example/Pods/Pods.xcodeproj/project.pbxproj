@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007414A1CACC9C9C93EB6C9776982C10 /* KonashiConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AA4DEAD07E4E5E73654AB544B544B3 /* KonashiConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03043584A483FA864ED744DD6AEB0B31 /* Konashi+ACDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BAFF084009FAADB13818C196777E8F /* Konashi+ACDrive.m */; };
+		0602006667FCBC849F2A00A0B4DD3658 /* konashi_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8785BF7DE19009E919D91596FBA44B6 /* konashi_ios_sdk.framework */; };
+		136E5B830F6233DE25BE1FB109B365EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */; };
+		15B864EC3DE0C651A78122C2C747D41E /* AeonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616659CDBC1006A3EC5F0A7088A03E9B /* AeonKit-dummy.m */; };
+		16A0B448F5B2576319AB7E629F2F95F3 /* KNSCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C330CF0A3C5FEF558DE885623DCDAD3 /* KNSCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B6E71CDBC787052DE5115E34D3D7374 /* CBUUID+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E465FA69E7D595D506AB48FDA6DC05 /* CBUUID+Konashi.m */; };
+		1BC2C5D154DA29C0013DA2D7C6806AC1 /* KonashiJavaScriptBindingsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D925D3AAF95BDF887C9E729586CF69 /* KonashiJavaScriptBindingsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2229A88F001D31B7F8E58BC33E3BFF8A /* KNSPeripheralImpls.h in Headers */ = {isa = PBXBuildFile; fileRef = 3802ACA159BE0944B9EACAF04641A677 /* KNSPeripheralImpls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27593C9922D48740EB39CE390F215B75 /* Pods-AeonKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3844EC05EAAB69CE982A356D2A5833 /* Pods-AeonKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C990084447B700DEFA23597647E005B /* AeonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 467E35CD770D5A08340890EE51830197 /* AeonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E6A6050A0475883B9113021DD95D1F /* Konashi+JavaScriptBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = 197DC27F7673F6E83568DC37CA877C0C /* Konashi+JavaScriptBindings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34390A70421DD18FC9F250144F750157 /* KNSCentralManager+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F5438F86B0F381EBC5B8E0A2B70669 /* KNSCentralManager+UI.m */; };
+		34AC8DD31B8EED9DE8CC49CB3FBAEF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */; };
+		34EC9F7D3A10028F60E3F0121FAC0FE0 /* Konashi+ADC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE2782F36BE7561F94527F46308BB63 /* Konashi+ADC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D0E797C3E8993D90E2597D8CC9F5CA /* Konashi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F19EEBDC8C4342D78347D942A3AFE92 /* Konashi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B45AA7C03DAB8D73F3674187041537 /* Pods-AeonKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC4B0E1A46F3600302E0B169041C3B9 /* Pods-AeonKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B1A0544593BCC80C114A68FAA43190A /* KNSKonashiPeripheralImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = B314159A49E8F5706AC587510CED04C5 /* KNSKonashiPeripheralImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5F21421FF0B703F91EE9659416FB96 /* KNSCentralManager+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CF03D25CEF6623CC4B13C8D247C988 /* KNSCentralManager+UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F00A65FFBD7BC0B63F72700D6BCE7DC /* KNSHandlerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFE0F86304356A077E4EED32A53A188 /* KNSHandlerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE21B6F223F782B9241BCC27EC1551B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66DBC3D093A0554711B29956085FB31 /* JavaScriptCore.framework */; };
+		5B0F65735F45119E1EDA723D03652C20 /* Konashi+Grove.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC44102EF423FC5DF4ECBFEEB1DEFF /* Konashi+Grove.m */; };
+		606DA2526FAF8237A2A5016B3B5916C2 /* KNSKoshianPeripheralImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8790A813CC7CDECC0E0BF7CE3662FCB3 /* KNSKoshianPeripheralImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626BEE5FAF066A28C40E81DFA322CD2D /* CBService+Konashi.h in Headers */ = {isa = PBXBuildFile; fileRef = 08349EC80A4E0F8EE98493D8B844F5A3 /* CBService+Konashi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		698A5917B8B33A3B3223BB18D59F215D /* KNSKonashiPeripheralImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AF14ACB07AD964D1BC05FD07611098 /* KNSKonashiPeripheralImpl.m */; };
+		6B5AABCA6201768F2931B1D7E5BB3F6E /* AeonKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A6ABE9C756619D29C8E2C69DE6FE /* AeonKit.bundle */; };
+		6D73C8EA4AAFCEBEFF32707E254044B1 /* konashi-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8ECE8ECB1B6BA80B0D60BB3DEFCD436 /* konashi-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7378C553CD615EFAEA7BB1281FA258DA /* KNSPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = DF09A3CE9622BE2425BB44966FE25225 /* KNSPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75F17C4E4619A5A9C88626708EE21090 /* CBPeripheral+Konashi.h in Headers */ = {isa = PBXBuildFile; fileRef = F75269E9BF1D61ADA872C39FBC844B25 /* CBPeripheral+Konashi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C844DBA993EE86E1C34B971801E54A7 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 978E3D006AC7327069AC1BDFCBD51796 /* Konashi.m */; };
+		7D3C169F3D905DA2F1EF33BCA2D75573 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A8D73B9C6E20B089FC30DEB47B7ACB /* CoreBluetooth.framework */; };
+		8D50A70330362B9F920FE0C8E4FEDCFF /* KNSPeripheralBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4596B9DE09A334158D53AEC084A9B /* KNSPeripheralBaseImpl.m */; };
+		90106DA8534A37868D9634FD69B21925 /* KNSPeripheralBaseImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 953FD9E1C6918698F457D22E263B99A7 /* KNSPeripheralBaseImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DAA2DD4B7E5A8DB67CBC2EA67C63F1 /* KNSKoshianPeripheralImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A05DCFC83C24D4A19637815E10B252 /* KNSKoshianPeripheralImpl.m */; };
+		96CAA93CF74E28CAFE150628AB483EDE /* KNSHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C2D68EA1295AB111A6A604FF2B3DD /* KNSHandlerManager.m */; };
+		A261D66CE3621C5953A43DB60DE81B9D /* konashi-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4324461173A57238F909B2FEDD453 /* konashi-ios-sdk-dummy.m */; };
+		A27042FBD17FFB58F8E06CDCFB9204E8 /* KonashiUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B03699BD7F7DD59C9051F226EC18A36E /* KonashiUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A458DAB8BBC90E2A3EC083A076819079 /* Konashi+Grove.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C328990C0BEC5ADD1291BB3C0520DE9 /* Konashi+Grove.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D29936A4156BB70836C9C4B77CB574 /* KonashiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F15A73996374A8F20290A07C3430F /* KonashiUtils.m */; };
+		B4010E1C007C7614FB04026E169C5D81 /* KNSPeripheralImplProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 066A9972EBD3D573EFF8C1C0627614BE /* KNSPeripheralImplProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DF15B0169F91755D80BCE4F3E44E98 /* CBService+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 693012B7D550ABCAA781A65E3A3C715B /* CBService+Konashi.m */; };
+		C351318D8DF90B3A1884A191B7B44AFC /* Konashi+JavaScriptBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A01C4874D775F975806D340C8DCC8A /* Konashi+JavaScriptBindings.m */; };
+		C670285AAA7118D7C2E0E9D7FB99660A /* Pods-AeonKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E634B418ADF1C00385BC637F64462249 /* Pods-AeonKit_Example-dummy.m */; };
+		C923DBEE9FA4D1B2BE61D5B55F8ADA84 /* KNSPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCC081976F05420BDEA812D99CD8ED0 /* KNSPeripheral.m */; };
+		D66EFAE8F22C2443A0D34832D7077B59 /* CBPeripheral+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = E89B3D5AAEA52DF58F97C56E7B5C8416 /* CBPeripheral+Konashi.m */; };
+		D99AB5B0C88CCD198C63BDC66EE6240C /* Konashi+ADC.m in Sources */ = {isa = PBXBuildFile; fileRef = 435DBCB505A9D5AF3377E9349572D6FF /* Konashi+ADC.m */; };
+		E6D707F654AB1F44BCF138E960FDC410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */; };
+		E94BDC221C94D9C500A19658 /* ANKDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC091C94D9C500A19658 /* ANKDisplay.h */; };
+		E94BDC231C94D9C500A19658 /* ANKDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC0A1C94D9C500A19658 /* ANKDisplay.m */; };
+		E94BDC241C94D9C500A19658 /* ANKHapticDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC0C1C94D9C500A19658 /* ANKHapticDisplay.h */; };
+		E94BDC251C94D9C500A19658 /* ANKHapticDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC0D1C94D9C500A19658 /* ANKHapticDisplay.m */; };
+		E94BDC261C94D9C500A19658 /* ANKOLEDDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC0F1C94D9C500A19658 /* ANKOLEDDisplay.h */; };
+		E94BDC271C94D9C500A19658 /* ANKOLEDDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC101C94D9C500A19658 /* ANKOLEDDisplay.m */; };
+		E94BDC281C94D9C500A19658 /* ANKDepthSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC131C94D9C500A19658 /* ANKDepthSensor.h */; };
+		E94BDC291C94D9C500A19658 /* ANKDepthSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC141C94D9C500A19658 /* ANKDepthSensor.m */; };
+		E94BDC2A1C94D9C500A19658 /* ANKSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC151C94D9C500A19658 /* ANKSensor.h */; };
+		E94BDC2B1C94D9C500A19658 /* ANKSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC161C94D9C500A19658 /* ANKSensor.m */; };
+		E94BDC2C1C94D9C500A19658 /* ANKTiltSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC181C94D9C500A19658 /* ANKTiltSensor.h */; };
+		E94BDC2D1C94D9C500A19658 /* ANKTiltSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC191C94D9C500A19658 /* ANKTiltSensor.m */; };
+		E94BDC2E1C94D9C500A19658 /* ANKTouchSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC1B1C94D9C500A19658 /* ANKTouchSensor.h */; };
+		E94BDC2F1C94D9C500A19658 /* ANKTouchSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC1C1C94D9C500A19658 /* ANKTouchSensor.m */; };
+		E94BDC321C94D9C500A19658 /* ANKSoftModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC201C94D9C500A19658 /* ANKSoftModule.h */; };
+		E94BDC331C94D9C500A19658 /* ANKSoftModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC211C94D9C500A19658 /* ANKSoftModule.m */; };
+		E94BDC361C94D9F100A19658 /* ANKModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC341C94D9F100A19658 /* ANKModule.h */; };
+		E94BDC371C94D9F100A19658 /* ANKModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC351C94D9F100A19658 /* ANKModule.m */; };
+		E94BDC421C94DAD700A19658 /* ANKSoftLogicModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC401C94DAD700A19658 /* ANKSoftLogicModule.h */; };
+		E94BDC431C94DAD700A19658 /* ANKSoftLogicModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC411C94DAD700A19658 /* ANKSoftLogicModule.m */; };
+		E94BDC461C94DAE300A19658 /* ANKSoftConditionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC441C94DAE300A19658 /* ANKSoftConditionModule.h */; };
+		E94BDC471C94DAE300A19658 /* ANKSoftConditionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC451C94DAE300A19658 /* ANKSoftConditionModule.m */; };
+		E94BDC4A1C94DAFF00A19658 /* ANKSoftCounterModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC481C94DAFF00A19658 /* ANKSoftCounterModule.h */; };
+		E94BDC4B1C94DAFF00A19658 /* ANKSoftCounterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC491C94DAFF00A19658 /* ANKSoftCounterModule.m */; };
+		E94BDC4E1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC4C1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.h */; };
+		E94BDC4F1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC4D1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m */; };
+		E94BDC521C94DB1400A19658 /* ANKSoftValueModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC501C94DB1400A19658 /* ANKSoftValueModule.h */; };
+		E94BDC531C94DB1400A19658 /* ANKSoftValueModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC511C94DB1400A19658 /* ANKSoftValueModule.m */; };
+		EC857FD4CF8B509D002157E4C4089879 /* ANKModuleCommunicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 046CC4A28C25FC14AA0F6EA235B7F149 /* ANKModuleCommunicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEAC4955EF0E6C741383DC675EE4BAA9 /* Konashi+ACDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = C09A6B00CAF7430EC10073449B0DD0A9 /* Konashi+ACDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDD9029C6790EDA68DAD6A3C9374D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */; };
+		F195E6400E2FB05CCD9322129B2F481F /* Pods-AeonKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B7209E810DCFF8009444AC54AC335 /* Pods-AeonKit_Tests-dummy.m */; };
+		F2EFBDE2657A018249677FFC4BE92053 /* CBUUID+Konashi.h in Headers */ = {isa = PBXBuildFile; fileRef = 873E0224C2B60F0BE990079F0F56A327 /* CBUUID+Konashi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87B940E4A8D8F8FA8844E3A9FF12520 /* KNSCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 882884019E8B41F5A14544DDD152D0E3 /* KNSCentralManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110AE27C0CBDE13705005C75D5C8109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A0DE689203945466C16F4B4E8E34DC;
+			remoteInfo = "konashi-ios-sdk";
+		};
+		55E50FB186FE659CA60D6A0B528A6B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A0DE689203945466C16F4B4E8E34DC;
+			remoteInfo = "konashi-ios-sdk";
+		};
+		5CED5CA7E29E418880BF1F93B4D52745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3617B050034D4AAB66BD1A8A457DAA0;
+			remoteInfo = "AeonKit-AeonKit";
+		};
+		7447E49E7C448B5EDF05D9D4A28C1241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD50930D97F04E3E0C60B6EEC004A9E;
+			remoteInfo = AeonKit;
+		};
+		7503648F892DE05F5BA060801CBE536A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD50930D97F04E3E0C60B6EEC004A9E;
+			remoteInfo = AeonKit;
+		};
+		C15F55FF8F8FB77C8470409D43ADCEE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A0DE689203945466C16F4B4E8E34DC;
+			remoteInfo = "konashi-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B4324461173A57238F909B2FEDD453 /* konashi-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "konashi-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		046CC4A28C25FC14AA0F6EA235B7F149 /* ANKModuleCommunicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANKModuleCommunicationProtocol.h; sourceTree = "<group>"; };
+		066A9972EBD3D573EFF8C1C0627614BE /* KNSPeripheralImplProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSPeripheralImplProtocol.h; path = Konashi/Konashi/Impl/KNSPeripheralImplProtocol.h; sourceTree = "<group>"; };
+		08349EC80A4E0F8EE98493D8B844F5A3 /* CBService+Konashi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBService+Konashi.h"; path = "Konashi/Konashi/Category/CoreBluetooth/CBService+Konashi.h"; sourceTree = "<group>"; };
+		0F78C511F5C859F558089DDCD4FF4E22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEF9D8A72F5F2FF154EEF424F9E70DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197DC27F7673F6E83568DC37CA877C0C /* Konashi+JavaScriptBindings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Konashi+JavaScriptBindings.h"; path = "Konashi/Konashi/Category/Konashi/Konashi+JavaScriptBindings.h"; sourceTree = "<group>"; };
+		1F19EEBDC8C4342D78347D942A3AFE92 /* Konashi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Konashi.h; path = Konashi/Konashi/Konashi.h; sourceTree = "<group>"; };
+		2F96A6ABE9C756619D29C8E2C69DE6FE /* AeonKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeonKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EE89B80FFAA51B6EB91BF213A1A572 /* Pods-AeonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AeonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35AC44102EF423FC5DF4ECBFEEB1DEFF /* Konashi+Grove.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Konashi+Grove.m"; path = "Konashi/Konashi/Category/Konashi/Konashi+Grove.m"; sourceTree = "<group>"; };
+		3802ACA159BE0944B9EACAF04641A677 /* KNSPeripheralImpls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSPeripheralImpls.h; path = Konashi/Konashi/Impl/KNSPeripheralImpls.h; sourceTree = "<group>"; };
+		3A94ABC1B4022E63A0811E3A8F2FB735 /* Pods-AeonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AeonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AF5F6793B5665D785C0557F78BEDB27 /* Pods-AeonKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AeonKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3C328990C0BEC5ADD1291BB3C0520DE9 /* Konashi+Grove.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Konashi+Grove.h"; path = "Konashi/Konashi/Category/Konashi/Konashi+Grove.h"; sourceTree = "<group>"; };
+		3E3844EC05EAAB69CE982A356D2A5833 /* Pods-AeonKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AeonKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		4098F7B04D75863E3DF6A4FC3CAB9715 /* konashi_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = konashi_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		435DBCB505A9D5AF3377E9349572D6FF /* Konashi+ADC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Konashi+ADC.m"; path = "Konashi/Konashi/Category/Konashi/Konashi+ADC.m"; sourceTree = "<group>"; };
+		467E35CD770D5A08340890EE51830197 /* AeonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeonKit-umbrella.h"; sourceTree = "<group>"; };
+		4B81B30EEB664DF448744D5E2E924C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCC081976F05420BDEA812D99CD8ED0 /* KNSPeripheral.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNSPeripheral.m; path = Konashi/Konashi/KNSPeripheral.m; sourceTree = "<group>"; };
+		4BE2782F36BE7561F94527F46308BB63 /* Konashi+ADC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Konashi+ADC.h"; path = "Konashi/Konashi/Category/Konashi/Konashi+ADC.h"; sourceTree = "<group>"; };
+		4E3A93577E4D4909670AC720DE48CBB4 /* Pods-AeonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AeonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4FC4B0E1A46F3600302E0B169041C3B9 /* Pods-AeonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AeonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58AF14ACB07AD964D1BC05FD07611098 /* KNSKonashiPeripheralImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNSKonashiPeripheralImpl.m; path = Konashi/Konashi/Impl/KNSKonashiPeripheralImpl.m; sourceTree = "<group>"; };
+		5E1B043EBF782111F00B2AC061FE6B64 /* konashi-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "konashi-ios-sdk.modulemap"; sourceTree = "<group>"; };
+		5FE4596B9DE09A334158D53AEC084A9B /* KNSPeripheralBaseImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNSPeripheralBaseImpl.m; path = Konashi/Konashi/Impl/KNSPeripheralBaseImpl.m; sourceTree = "<group>"; };
+		60BD47AFEF35E4F37904D3423CBDFB93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616659CDBC1006A3EC5F0A7088A03E9B /* AeonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AeonKit-dummy.m"; sourceTree = "<group>"; };
+		62A05DCFC83C24D4A19637815E10B252 /* KNSKoshianPeripheralImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNSKoshianPeripheralImpl.m; path = Konashi/Konashi/Impl/KNSKoshianPeripheralImpl.m; sourceTree = "<group>"; };
+		63A8D73B9C6E20B089FC30DEB47B7ACB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		693012B7D550ABCAA781A65E3A3C715B /* CBService+Konashi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBService+Konashi.m"; path = "Konashi/Konashi/Category/CoreBluetooth/CBService+Konashi.m"; sourceTree = "<group>"; };
+		6F7B7209E810DCFF8009444AC54AC335 /* Pods-AeonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AeonKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		74C62DA3DD3F27EA59F612FCB5B8418D /* AeonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AeonKit.modulemap; sourceTree = "<group>"; };
+		768C2D68EA1295AB111A6A604FF2B3DD /* KNSHandlerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNSHandlerManager.m; path = Konashi/Konashi/KNSHandlerManager.m; sourceTree = "<group>"; };
+		78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		791F3F737ED57698B5EAE8E4AC0364AE /* Pods-AeonKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AeonKit_Example-resources.sh"; sourceTree = "<group>"; };
+		81DCD3A748443CDD5B99412821A66428 /* Pods_AeonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BAFF084009FAADB13818C196777E8F /* Konashi+ACDrive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Konashi+ACDrive.m"; path = "Konashi/Konashi/Category/Konashi/Konashi+ACDrive.m"; sourceTree = "<group>"; };
+		83CF03D25CEF6623CC4B13C8D247C988 /* KNSCentralManager+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KNSCentralManager+UI.h"; path = "Konashi/Konashi/Category/Konashi/KNSCentralManager+UI.h"; sourceTree = "<group>"; };
+		848F15A73996374A8F20290A07C3430F /* KonashiUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KonashiUtils.m; path = Konashi/Konashi/KonashiUtils.m; sourceTree = "<group>"; };
+		84C206995295E322E4D822D04A656FFC /* Pods-AeonKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AeonKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		873E0224C2B60F0BE990079F0F56A327 /* CBUUID+Konashi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+Konashi.h"; path = "Konashi/Konashi/Category/CoreBluetooth/CBUUID+Konashi.h"; sourceTree = "<group>"; };
+		8790A813CC7CDECC0E0BF7CE3662FCB3 /* KNSKoshianPeripheralImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSKoshianPeripheralImpl.h; path = Konashi/Konashi/Impl/KNSKoshianPeripheralImpl.h; sourceTree = "<group>"; };
+		882884019E8B41F5A14544DDD152D0E3 /* KNSCentralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNSCentralManager.m; path = Konashi/Konashi/KNSCentralManager.m; sourceTree = "<group>"; };
+		88AA4DEAD07E4E5E73654AB544B544B3 /* KonashiConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KonashiConstant.h; path = Konashi/Konashi/Constant/KonashiConstant.h; sourceTree = "<group>"; };
+		8C330CF0A3C5FEF558DE885623DCDAD3 /* KNSCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSCentralManager.h; path = Konashi/Konashi/KNSCentralManager.h; sourceTree = "<group>"; };
+		8FFDCD2758648482FAB76AF8A98756B6 /* konashi-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "konashi-ios-sdk.xcconfig"; sourceTree = "<group>"; };
+		953FD9E1C6918698F457D22E263B99A7 /* KNSPeripheralBaseImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSPeripheralBaseImpl.h; path = Konashi/Konashi/Impl/KNSPeripheralBaseImpl.h; sourceTree = "<group>"; };
+		978E3D006AC7327069AC1BDFCBD51796 /* Konashi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Konashi.m; path = Konashi/Konashi/Konashi.m; sourceTree = "<group>"; };
+		A6C8E90A0FC5CD83784EB01F0090501D /* Pods-AeonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AeonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8785BF7DE19009E919D91596FBA44B6 /* konashi_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = konashi_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8ECE8ECB1B6BA80B0D60BB3DEFCD436 /* konashi-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "konashi-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
+		B03699BD7F7DD59C9051F226EC18A36E /* KonashiUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KonashiUtils.h; path = Konashi/Konashi/KonashiUtils.h; sourceTree = "<group>"; };
+		B314159A49E8F5706AC587510CED04C5 /* KNSKonashiPeripheralImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSKonashiPeripheralImpl.h; path = Konashi/Konashi/Impl/KNSKonashiPeripheralImpl.h; sourceTree = "<group>"; };
+		B8A05A29F1A2C4489CB88C8AD30E6277 /* AeonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AeonKit.xcconfig; sourceTree = "<group>"; };
+		B8D925D3AAF95BDF887C9E729586CF69 /* KonashiJavaScriptBindingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KonashiJavaScriptBindingsProtocol.h; path = Konashi/Konashi/Category/Konashi/KonashiJavaScriptBindingsProtocol.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAFE0F86304356A077E4EED32A53A188 /* KNSHandlerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSHandlerManager.h; path = Konashi/Konashi/KNSHandlerManager.h; sourceTree = "<group>"; };
+		C09A6B00CAF7430EC10073449B0DD0A9 /* Konashi+ACDrive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Konashi+ACDrive.h"; path = "Konashi/Konashi/Category/Konashi/Konashi+ACDrive.h"; sourceTree = "<group>"; };
+		C1398930395325CC5688D44F69603ABE /* Pods-AeonKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AeonKit_Example.modulemap"; sourceTree = "<group>"; };
+		C408BE1BB027FD35DBE685F64D5CD3B5 /* Pods-AeonKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AeonKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C66DBC3D093A0554711B29956085FB31 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		C7F5438F86B0F381EBC5B8E0A2B70669 /* KNSCentralManager+UI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KNSCentralManager+UI.m"; path = "Konashi/Konashi/Category/Konashi/KNSCentralManager+UI.m"; sourceTree = "<group>"; };
+		CF5979298C2CD7B7A2F8D74A090FB5F9 /* Pods-AeonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AeonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D28DE74BAE02D1FB71EF269D07271B39 /* konashi-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "konashi-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		D84FE84D6FB641E715A9BEB794D11390 /* Pods-AeonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AeonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC3E5BD34A4A963DC79D678272F013BD /* Pods-AeonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AeonKit_Tests.modulemap"; sourceTree = "<group>"; };
+		DCB44AE81870F42F4491B07009074569 /* AeonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF09A3CE9622BE2425BB44966FE25225 /* KNSPeripheral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSPeripheral.h; path = Konashi/Konashi/KNSPeripheral.h; sourceTree = "<group>"; };
+		E634B418ADF1C00385BC637F64462249 /* Pods-AeonKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AeonKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E89B3D5AAEA52DF58F97C56E7B5C8416 /* CBPeripheral+Konashi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+Konashi.m"; path = "Konashi/Konashi/Category/CoreBluetooth/CBPeripheral+Konashi.m"; sourceTree = "<group>"; };
+		E8A01C4874D775F975806D340C8DCC8A /* Konashi+JavaScriptBindings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Konashi+JavaScriptBindings.m"; path = "Konashi/Konashi/Category/Konashi/Konashi+JavaScriptBindings.m"; sourceTree = "<group>"; };
+		E94BDC091C94D9C500A19658 /* ANKDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKDisplay.h; sourceTree = "<group>"; };
+		E94BDC0A1C94D9C500A19658 /* ANKDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKDisplay.m; sourceTree = "<group>"; };
+		E94BDC0C1C94D9C500A19658 /* ANKHapticDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKHapticDisplay.h; sourceTree = "<group>"; };
+		E94BDC0D1C94D9C500A19658 /* ANKHapticDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKHapticDisplay.m; sourceTree = "<group>"; };
+		E94BDC0F1C94D9C500A19658 /* ANKOLEDDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKOLEDDisplay.h; sourceTree = "<group>"; };
+		E94BDC101C94D9C500A19658 /* ANKOLEDDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKOLEDDisplay.m; sourceTree = "<group>"; };
+		E94BDC131C94D9C500A19658 /* ANKDepthSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKDepthSensor.h; sourceTree = "<group>"; };
+		E94BDC141C94D9C500A19658 /* ANKDepthSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKDepthSensor.m; sourceTree = "<group>"; };
+		E94BDC151C94D9C500A19658 /* ANKSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSensor.h; sourceTree = "<group>"; };
+		E94BDC161C94D9C500A19658 /* ANKSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSensor.m; sourceTree = "<group>"; };
+		E94BDC181C94D9C500A19658 /* ANKTiltSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKTiltSensor.h; sourceTree = "<group>"; };
+		E94BDC191C94D9C500A19658 /* ANKTiltSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKTiltSensor.m; sourceTree = "<group>"; };
+		E94BDC1B1C94D9C500A19658 /* ANKTouchSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKTouchSensor.h; sourceTree = "<group>"; };
+		E94BDC1C1C94D9C500A19658 /* ANKTouchSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKTouchSensor.m; sourceTree = "<group>"; };
+		E94BDC201C94D9C500A19658 /* ANKSoftModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftModule.h; sourceTree = "<group>"; };
+		E94BDC211C94D9C500A19658 /* ANKSoftModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftModule.m; sourceTree = "<group>"; };
+		E94BDC341C94D9F100A19658 /* ANKModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKModule.h; sourceTree = "<group>"; };
+		E94BDC351C94D9F100A19658 /* ANKModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKModule.m; sourceTree = "<group>"; };
+		E94BDC401C94DAD700A19658 /* ANKSoftLogicModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftLogicModule.h; sourceTree = "<group>"; };
+		E94BDC411C94DAD700A19658 /* ANKSoftLogicModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftLogicModule.m; sourceTree = "<group>"; };
+		E94BDC441C94DAE300A19658 /* ANKSoftConditionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftConditionModule.h; sourceTree = "<group>"; };
+		E94BDC451C94DAE300A19658 /* ANKSoftConditionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftConditionModule.m; sourceTree = "<group>"; };
+		E94BDC481C94DAFF00A19658 /* ANKSoftCounterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftCounterModule.h; sourceTree = "<group>"; };
+		E94BDC491C94DAFF00A19658 /* ANKSoftCounterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftCounterModule.m; sourceTree = "<group>"; };
+		E94BDC4C1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftHapticPatternGeneratorModule.h; sourceTree = "<group>"; };
+		E94BDC4D1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftHapticPatternGeneratorModule.m; sourceTree = "<group>"; };
+		E94BDC501C94DB1400A19658 /* ANKSoftValueModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftValueModule.h; sourceTree = "<group>"; };
+		E94BDC511C94DB1400A19658 /* ANKSoftValueModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftValueModule.m; sourceTree = "<group>"; };
+		E94BDC541C953F2F00A19658 /* AeonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AeonKit.h; sourceTree = "<group>"; };
+		F0E465FA69E7D595D506AB48FDA6DC05 /* CBUUID+Konashi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+Konashi.m"; path = "Konashi/Konashi/Category/CoreBluetooth/CBUUID+Konashi.m"; sourceTree = "<group>"; };
+		F1A3BF5538200479532766AE2DEE7058 /* Pods_AeonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75269E9BF1D61ADA872C39FBC844B25 /* CBPeripheral+Konashi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+Konashi.h"; path = "Konashi/Konashi/Category/CoreBluetooth/CBPeripheral+Konashi.h"; sourceTree = "<group>"; };
+		FB92D2A045D6CB85D4E2BE89D4FBFF33 /* Pods-AeonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AeonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FBFB574B677068C88354130947C44759 /* AeonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeonKit-prefix.pch"; sourceTree = "<group>"; };
+		FE18FDF79D71631AA3D2CA0D4919B0CE /* Pods-AeonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AeonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A482F73D800D121BABDB90AE129403E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D707F654AB1F44BCF138E960FDC410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8EEADEDD3C7D8C12E0F0A8EAE65EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8595FEFC2A2CFEE6B87B0B7E0006C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AC8DD31B8EED9DE8CC49CB3FBAEF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D741AFF7017402BE3C7A953056A8623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3C169F3D905DA2F1EF33BCA2D75573 /* CoreBluetooth.framework in Frameworks */,
+				EEDD9029C6790EDA68DAD6A3C9374D7D /* Foundation.framework in Frameworks */,
+				5AE21B6F223F782B9241BCC27EC1551B /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2F1165899A824179112A5E52501D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136E5B830F6233DE25BE1FB109B365EC /* Foundation.framework in Frameworks */,
+				0602006667FCBC849F2A00A0B4DD3658 /* konashi_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28DB2EBF0F65CB01A7F3E59B3C614677 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C62DA3DD3F27EA59F612FCB5B8418D /* AeonKit.modulemap */,
+				B8A05A29F1A2C4489CB88C8AD30E6277 /* AeonKit.xcconfig */,
+				616659CDBC1006A3EC5F0A7088A03E9B /* AeonKit-dummy.m */,
+				FBFB574B677068C88354130947C44759 /* AeonKit-prefix.pch */,
+				467E35CD770D5A08340890EE51830197 /* AeonKit-umbrella.h */,
+				0F78C511F5C859F558089DDCD4FF4E22 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AeonKit";
+			sourceTree = "<group>";
+		};
+		307CB3470D250EACEB6C076EFF11E895 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA2958220D88461E6E71D04F0D08B1F2 /* AeonKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39F2C65FDB8D0CAED3E36B4ED46E265A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				046CC4A28C25FC14AA0F6EA235B7F149 /* ANKModuleCommunicationProtocol.h */,
+				E94BDC071C94D9C500A19658 /* HardwareModule */,
+				E94BDC1D1C94D9C500A19658 /* SoftModule */,
+				E94BDC541C953F2F00A19658 /* AeonKit.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		421A51CADF6F71A7F3E66500710247A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39F2C65FDB8D0CAED3E36B4ED46E265A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		64198590987912D3FB81DF25119AAD6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1114213275C64774C75099E66F38E6 /* Pods-AeonKit_Example */,
+				CF6CB466CCFFF814B8EF96C257C7CB24 /* Pods-AeonKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B1114213275C64774C75099E66F38E6 /* Pods-AeonKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF9D8A72F5F2FF154EEF424F9E70DF /* Info.plist */,
+				C1398930395325CC5688D44F69603ABE /* Pods-AeonKit_Example.modulemap */,
+				33EE89B80FFAA51B6EB91BF213A1A572 /* Pods-AeonKit_Example-acknowledgements.markdown */,
+				3A94ABC1B4022E63A0811E3A8F2FB735 /* Pods-AeonKit_Example-acknowledgements.plist */,
+				E634B418ADF1C00385BC637F64462249 /* Pods-AeonKit_Example-dummy.m */,
+				CF5979298C2CD7B7A2F8D74A090FB5F9 /* Pods-AeonKit_Example-frameworks.sh */,
+				791F3F737ED57698B5EAE8E4AC0364AE /* Pods-AeonKit_Example-resources.sh */,
+				3E3844EC05EAAB69CE982A356D2A5833 /* Pods-AeonKit_Example-umbrella.h */,
+				FB92D2A045D6CB85D4E2BE89D4FBFF33 /* Pods-AeonKit_Example.debug.xcconfig */,
+				A6C8E90A0FC5CD83784EB01F0090501D /* Pods-AeonKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AeonKit_Example";
+			path = "Target Support Files/Pods-AeonKit_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				307CB3470D250EACEB6C076EFF11E895 /* Development Pods */,
+				BBEA3DAA4E6B76057D9B6F80FD505628 /* Frameworks */,
+				EF8C20096F73DA102981B90DD392D50E /* Pods */,
+				81DB5375BD07372C8A24F456939F6B41 /* Products */,
+				64198590987912D3FB81DF25119AAD6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81DB5375BD07372C8A24F456939F6B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A6ABE9C756619D29C8E2C69DE6FE /* AeonKit.bundle */,
+				DCB44AE81870F42F4491B07009074569 /* AeonKit.framework */,
+				4098F7B04D75863E3DF6A4FC3CAB9715 /* konashi_ios_sdk.framework */,
+				81DCD3A748443CDD5B99412821A66428 /* Pods_AeonKit_Example.framework */,
+				F1A3BF5538200479532766AE2DEE7058 /* Pods_AeonKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A898240CC3D291516A32DCA22B693070 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60BD47AFEF35E4F37904D3423CBDFB93 /* Info.plist */,
+				5E1B043EBF782111F00B2AC061FE6B64 /* konashi-ios-sdk.modulemap */,
+				8FFDCD2758648482FAB76AF8A98756B6 /* konashi-ios-sdk.xcconfig */,
+				03B4324461173A57238F909B2FEDD453 /* konashi-ios-sdk-dummy.m */,
+				D28DE74BAE02D1FB71EF269D07271B39 /* konashi-ios-sdk-prefix.pch */,
+				A8ECE8ECB1B6BA80B0D60BB3DEFCD436 /* konashi-ios-sdk-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/konashi-ios-sdk";
+			sourceTree = "<group>";
+		};
+		BBEA3DAA4E6B76057D9B6F80FD505628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8785BF7DE19009E919D91596FBA44B6 /* konashi_ios_sdk.framework */,
+				FB362AC9682E90825F2799CECD7CBE13 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6CB466CCFFF814B8EF96C257C7CB24 /* Pods-AeonKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B81B30EEB664DF448744D5E2E924C9B /* Info.plist */,
+				DC3E5BD34A4A963DC79D678272F013BD /* Pods-AeonKit_Tests.modulemap */,
+				D84FE84D6FB641E715A9BEB794D11390 /* Pods-AeonKit_Tests-acknowledgements.markdown */,
+				C408BE1BB027FD35DBE685F64D5CD3B5 /* Pods-AeonKit_Tests-acknowledgements.plist */,
+				6F7B7209E810DCFF8009444AC54AC335 /* Pods-AeonKit_Tests-dummy.m */,
+				3AF5F6793B5665D785C0557F78BEDB27 /* Pods-AeonKit_Tests-frameworks.sh */,
+				84C206995295E322E4D822D04A656FFC /* Pods-AeonKit_Tests-resources.sh */,
+				4FC4B0E1A46F3600302E0B169041C3B9 /* Pods-AeonKit_Tests-umbrella.h */,
+				FE18FDF79D71631AA3D2CA0D4919B0CE /* Pods-AeonKit_Tests.debug.xcconfig */,
+				4E3A93577E4D4909670AC720DE48CBB4 /* Pods-AeonKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-AeonKit_Tests";
+			path = "Target Support Files/Pods-AeonKit_Tests";
+			sourceTree = "<group>";
+		};
+		E94BDC071C94D9C500A19658 /* HardwareModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC341C94D9F100A19658 /* ANKModule.h */,
+				E94BDC351C94D9F100A19658 /* ANKModule.m */,
+				E94BDC081C94D9C500A19658 /* Display */,
+				E94BDC111C94D9C500A19658 /* Sensor */,
+			);
+			path = HardwareModule;
+			sourceTree = "<group>";
+		};
+		E94BDC081C94D9C500A19658 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC091C94D9C500A19658 /* ANKDisplay.h */,
+				E94BDC0A1C94D9C500A19658 /* ANKDisplay.m */,
+				E94BDC0B1C94D9C500A19658 /* ANKHapticDisplay */,
+				E94BDC0E1C94D9C500A19658 /* ANKOLEDDisplay */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		E94BDC0B1C94D9C500A19658 /* ANKHapticDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC0C1C94D9C500A19658 /* ANKHapticDisplay.h */,
+				E94BDC0D1C94D9C500A19658 /* ANKHapticDisplay.m */,
+			);
+			path = ANKHapticDisplay;
+			sourceTree = "<group>";
+		};
+		E94BDC0E1C94D9C500A19658 /* ANKOLEDDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC0F1C94D9C500A19658 /* ANKOLEDDisplay.h */,
+				E94BDC101C94D9C500A19658 /* ANKOLEDDisplay.m */,
+			);
+			path = ANKOLEDDisplay;
+			sourceTree = "<group>";
+		};
+		E94BDC111C94D9C500A19658 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC151C94D9C500A19658 /* ANKSensor.h */,
+				E94BDC161C94D9C500A19658 /* ANKSensor.m */,
+				E94BDC121C94D9C500A19658 /* ANKDepthSensor */,
+				E94BDC171C94D9C500A19658 /* ANKTiltSensor */,
+				E94BDC1A1C94D9C500A19658 /* ANKTouchSensor */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		E94BDC121C94D9C500A19658 /* ANKDepthSensor */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC131C94D9C500A19658 /* ANKDepthSensor.h */,
+				E94BDC141C94D9C500A19658 /* ANKDepthSensor.m */,
+			);
+			path = ANKDepthSensor;
+			sourceTree = "<group>";
+		};
+		E94BDC171C94D9C500A19658 /* ANKTiltSensor */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC181C94D9C500A19658 /* ANKTiltSensor.h */,
+				E94BDC191C94D9C500A19658 /* ANKTiltSensor.m */,
+			);
+			path = ANKTiltSensor;
+			sourceTree = "<group>";
+		};
+		E94BDC1A1C94D9C500A19658 /* ANKTouchSensor */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC1B1C94D9C500A19658 /* ANKTouchSensor.h */,
+				E94BDC1C1C94D9C500A19658 /* ANKTouchSensor.m */,
+			);
+			path = ANKTouchSensor;
+			sourceTree = "<group>";
+		};
+		E94BDC1D1C94D9C500A19658 /* SoftModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC381C94DACA00A19658 /* Condition */,
+				E94BDC3A1C94DACA00A19658 /* Logic */,
+				E94BDC3C1C94DACA00A19658 /* Utility */,
+				E94BDC201C94D9C500A19658 /* ANKSoftModule.h */,
+				E94BDC211C94D9C500A19658 /* ANKSoftModule.m */,
+			);
+			path = SoftModule;
+			sourceTree = "<group>";
+		};
+		E94BDC381C94DACA00A19658 /* Condition */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC391C94DACA00A19658 /* ConditionModule */,
+			);
+			path = Condition;
+			sourceTree = "<group>";
+		};
+		E94BDC391C94DACA00A19658 /* ConditionModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC441C94DAE300A19658 /* ANKSoftConditionModule.h */,
+				E94BDC451C94DAE300A19658 /* ANKSoftConditionModule.m */,
+			);
+			path = ConditionModule;
+			sourceTree = "<group>";
+		};
+		E94BDC3A1C94DACA00A19658 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC3B1C94DACA00A19658 /* LogicModule */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		E94BDC3B1C94DACA00A19658 /* LogicModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC401C94DAD700A19658 /* ANKSoftLogicModule.h */,
+				E94BDC411C94DAD700A19658 /* ANKSoftLogicModule.m */,
+			);
+			path = LogicModule;
+			sourceTree = "<group>";
+		};
+		E94BDC3C1C94DACA00A19658 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC3D1C94DACA00A19658 /* CounterModule */,
+				E94BDC3E1C94DACA00A19658 /* HapticPatternGeneratorModule */,
+				E94BDC3F1C94DACA00A19658 /* ValueModule */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E94BDC3D1C94DACA00A19658 /* CounterModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC481C94DAFF00A19658 /* ANKSoftCounterModule.h */,
+				E94BDC491C94DAFF00A19658 /* ANKSoftCounterModule.m */,
+			);
+			path = CounterModule;
+			sourceTree = "<group>";
+		};
+		E94BDC3E1C94DACA00A19658 /* HapticPatternGeneratorModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC4C1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.h */,
+				E94BDC4D1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m */,
+			);
+			path = HapticPatternGeneratorModule;
+			sourceTree = "<group>";
+		};
+		E94BDC3F1C94DACA00A19658 /* ValueModule */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC501C94DB1400A19658 /* ANKSoftValueModule.h */,
+				E94BDC511C94DB1400A19658 /* ANKSoftValueModule.m */,
+			);
+			path = ValueModule;
+			sourceTree = "<group>";
+		};
+		EA2958220D88461E6E71D04F0D08B1F2 /* AeonKit */ = {
+			isa = PBXGroup;
+			children = (
+				421A51CADF6F71A7F3E66500710247A1 /* Pod */,
+				28DB2EBF0F65CB01A7F3E59B3C614677 /* Support Files */,
+			);
+			name = AeonKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB8D11930F038C6B3B8EFA0893738C00 /* konashi-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F75269E9BF1D61ADA872C39FBC844B25 /* CBPeripheral+Konashi.h */,
+				E89B3D5AAEA52DF58F97C56E7B5C8416 /* CBPeripheral+Konashi.m */,
+				08349EC80A4E0F8EE98493D8B844F5A3 /* CBService+Konashi.h */,
+				693012B7D550ABCAA781A65E3A3C715B /* CBService+Konashi.m */,
+				873E0224C2B60F0BE990079F0F56A327 /* CBUUID+Konashi.h */,
+				F0E465FA69E7D595D506AB48FDA6DC05 /* CBUUID+Konashi.m */,
+				8C330CF0A3C5FEF558DE885623DCDAD3 /* KNSCentralManager.h */,
+				882884019E8B41F5A14544DDD152D0E3 /* KNSCentralManager.m */,
+				83CF03D25CEF6623CC4B13C8D247C988 /* KNSCentralManager+UI.h */,
+				C7F5438F86B0F381EBC5B8E0A2B70669 /* KNSCentralManager+UI.m */,
+				BAFE0F86304356A077E4EED32A53A188 /* KNSHandlerManager.h */,
+				768C2D68EA1295AB111A6A604FF2B3DD /* KNSHandlerManager.m */,
+				B314159A49E8F5706AC587510CED04C5 /* KNSKonashiPeripheralImpl.h */,
+				58AF14ACB07AD964D1BC05FD07611098 /* KNSKonashiPeripheralImpl.m */,
+				8790A813CC7CDECC0E0BF7CE3662FCB3 /* KNSKoshianPeripheralImpl.h */,
+				62A05DCFC83C24D4A19637815E10B252 /* KNSKoshianPeripheralImpl.m */,
+				DF09A3CE9622BE2425BB44966FE25225 /* KNSPeripheral.h */,
+				4BCC081976F05420BDEA812D99CD8ED0 /* KNSPeripheral.m */,
+				953FD9E1C6918698F457D22E263B99A7 /* KNSPeripheralBaseImpl.h */,
+				5FE4596B9DE09A334158D53AEC084A9B /* KNSPeripheralBaseImpl.m */,
+				066A9972EBD3D573EFF8C1C0627614BE /* KNSPeripheralImplProtocol.h */,
+				3802ACA159BE0944B9EACAF04641A677 /* KNSPeripheralImpls.h */,
+				1F19EEBDC8C4342D78347D942A3AFE92 /* Konashi.h */,
+				978E3D006AC7327069AC1BDFCBD51796 /* Konashi.m */,
+				C09A6B00CAF7430EC10073449B0DD0A9 /* Konashi+ACDrive.h */,
+				82BAFF084009FAADB13818C196777E8F /* Konashi+ACDrive.m */,
+				4BE2782F36BE7561F94527F46308BB63 /* Konashi+ADC.h */,
+				435DBCB505A9D5AF3377E9349572D6FF /* Konashi+ADC.m */,
+				3C328990C0BEC5ADD1291BB3C0520DE9 /* Konashi+Grove.h */,
+				35AC44102EF423FC5DF4ECBFEEB1DEFF /* Konashi+Grove.m */,
+				197DC27F7673F6E83568DC37CA877C0C /* Konashi+JavaScriptBindings.h */,
+				E8A01C4874D775F975806D340C8DCC8A /* Konashi+JavaScriptBindings.m */,
+				88AA4DEAD07E4E5E73654AB544B544B3 /* KonashiConstant.h */,
+				B8D925D3AAF95BDF887C9E729586CF69 /* KonashiJavaScriptBindingsProtocol.h */,
+				B03699BD7F7DD59C9051F226EC18A36E /* KonashiUtils.h */,
+				848F15A73996374A8F20290A07C3430F /* KonashiUtils.m */,
+				A898240CC3D291516A32DCA22B693070 /* Support Files */,
+			);
+			path = "konashi-ios-sdk";
+			sourceTree = "<group>";
+		};
+		EF8C20096F73DA102981B90DD392D50E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB8D11930F038C6B3B8EFA0893738C00 /* konashi-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB362AC9682E90825F2799CECD7CBE13 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63A8D73B9C6E20B089FC30DEB47B7ACB /* CoreBluetooth.framework */,
+				78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */,
+				C66DBC3D093A0554711B29956085FB31 /* JavaScriptCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A901BDEB7C73F0A4AFEE59368BB31A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B45AA7C03DAB8D73F3674187041537 /* Pods-AeonKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B638CC2EE1BBBF4CC0749A18F67B8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F17C4E4619A5A9C88626708EE21090 /* CBPeripheral+Konashi.h in Headers */,
+				626BEE5FAF066A28C40E81DFA322CD2D /* CBService+Konashi.h in Headers */,
+				F2EFBDE2657A018249677FFC4BE92053 /* CBUUID+Konashi.h in Headers */,
+				3B5F21421FF0B703F91EE9659416FB96 /* KNSCentralManager+UI.h in Headers */,
+				16A0B448F5B2576319AB7E629F2F95F3 /* KNSCentralManager.h in Headers */,
+				4F00A65FFBD7BC0B63F72700D6BCE7DC /* KNSHandlerManager.h in Headers */,
+				3B1A0544593BCC80C114A68FAA43190A /* KNSKonashiPeripheralImpl.h in Headers */,
+				606DA2526FAF8237A2A5016B3B5916C2 /* KNSKoshianPeripheralImpl.h in Headers */,
+				7378C553CD615EFAEA7BB1281FA258DA /* KNSPeripheral.h in Headers */,
+				90106DA8534A37868D9634FD69B21925 /* KNSPeripheralBaseImpl.h in Headers */,
+				B4010E1C007C7614FB04026E169C5D81 /* KNSPeripheralImplProtocol.h in Headers */,
+				2229A88F001D31B7F8E58BC33E3BFF8A /* KNSPeripheralImpls.h in Headers */,
+				EEAC4955EF0E6C741383DC675EE4BAA9 /* Konashi+ACDrive.h in Headers */,
+				34EC9F7D3A10028F60E3F0121FAC0FE0 /* Konashi+ADC.h in Headers */,
+				A458DAB8BBC90E2A3EC083A076819079 /* Konashi+Grove.h in Headers */,
+				30E6A6050A0475883B9113021DD95D1F /* Konashi+JavaScriptBindings.h in Headers */,
+				6D73C8EA4AAFCEBEFF32707E254044B1 /* konashi-ios-sdk-umbrella.h in Headers */,
+				35D0E797C3E8993D90E2597D8CC9F5CA /* Konashi.h in Headers */,
+				007414A1CACC9C9C93EB6C9776982C10 /* KonashiConstant.h in Headers */,
+				1BC2C5D154DA29C0013DA2D7C6806AC1 /* KonashiJavaScriptBindingsProtocol.h in Headers */,
+				A27042FBD17FFB58F8E06CDCFB9204E8 /* KonashiUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91EEDDE95609341A992B0C4D3C38A96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27593C9922D48740EB39CE390F215B75 /* Pods-AeonKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5222A0B48E82833827C436FD1E9A25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94BDC421C94DAD700A19658 /* ANKSoftLogicModule.h in Headers */,
+				E94BDC221C94D9C500A19658 /* ANKDisplay.h in Headers */,
+				E94BDC2A1C94D9C500A19658 /* ANKSensor.h in Headers */,
+				E94BDC521C94DB1400A19658 /* ANKSoftValueModule.h in Headers */,
+				E94BDC281C94D9C500A19658 /* ANKDepthSensor.h in Headers */,
+				E94BDC261C94D9C500A19658 /* ANKOLEDDisplay.h in Headers */,
+				E94BDC241C94D9C500A19658 /* ANKHapticDisplay.h in Headers */,
+				2C990084447B700DEFA23597647E005B /* AeonKit-umbrella.h in Headers */,
+				E94BDC2C1C94D9C500A19658 /* ANKTiltSensor.h in Headers */,
+				E94BDC321C94D9C500A19658 /* ANKSoftModule.h in Headers */,
+				E94BDC2E1C94D9C500A19658 /* ANKTouchSensor.h in Headers */,
+				E94BDC4A1C94DAFF00A19658 /* ANKSoftCounterModule.h in Headers */,
+				EC857FD4CF8B509D002157E4C4089879 /* ANKModuleCommunicationProtocol.h in Headers */,
+				E94BDC4E1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.h in Headers */,
+				E94BDC361C94D9F100A19658 /* ANKModule.h in Headers */,
+				E94BDC461C94DAE300A19658 /* ANKSoftConditionModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F511353B2F5B8CBD721E5652D419FFE /* Pods-AeonKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFF505677C29C90EEE1133F61DC1FE2 /* Build configuration list for PBXNativeTarget "Pods-AeonKit_Example" */;
+			buildPhases = (
+				6E8A704A6E1B96C57BA4BD0DBEE1625E /* Sources */,
+				A8595FEFC2A2CFEE6B87B0B7E0006C50 /* Frameworks */,
+				B91EEDDE95609341A992B0C4D3C38A96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1E87FAE9D05A3B138630A23922FF40 /* PBXTargetDependency */,
+				2C04091350161A01EE307CCAB2ACDF89 /* PBXTargetDependency */,
+			);
+			name = "Pods-AeonKit_Example";
+			productName = "Pods-AeonKit_Example";
+			productReference = 81DCD3A748443CDD5B99412821A66428 /* Pods_AeonKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63A0DE689203945466C16F4B4E8E34DC /* konashi-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AE9DC81E66EC3046C0392B16BDF7C5 /* Build configuration list for PBXNativeTarget "konashi-ios-sdk" */;
+			buildPhases = (
+				3E587C7E3A31DC14DCFC6A45246F2A02 /* Sources */,
+				D741AFF7017402BE3C7A953056A8623E /* Frameworks */,
+				51B638CC2EE1BBBF4CC0749A18F67B8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "konashi-ios-sdk";
+			productName = "konashi-ios-sdk";
+			productReference = 4098F7B04D75863E3DF6A4FC3CAB9715 /* konashi_ios_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7306F59517F8A9B77819896ACAA43287 /* Pods-AeonKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5DD32C68FF76E234BD059AA0319815 /* Build configuration list for PBXNativeTarget "Pods-AeonKit_Tests" */;
+			buildPhases = (
+				14C3CD19F8812F45DAE5E1448456FE10 /* Sources */,
+				2A482F73D800D121BABDB90AE129403E /* Frameworks */,
+				1A901BDEB7C73F0A4AFEE59368BB31A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288ECA1893D8A0AF992F81DFD697D898 /* PBXTargetDependency */,
+				BF3B61E38F3586056C542F9FE28ADCDA /* PBXTargetDependency */,
+			);
+			name = "Pods-AeonKit_Tests";
+			productName = "Pods-AeonKit_Tests";
+			productReference = F1A3BF5538200479532766AE2DEE7058 /* Pods_AeonKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBD50930D97F04E3E0C60B6EEC004A9E /* AeonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8ED7BE5101DDF518C508EC6E28C788 /* Build configuration list for PBXNativeTarget "AeonKit" */;
+			buildPhases = (
+				B35E3EB384DC20D58210E3F62914F2EF /* Sources */,
+				ED2F1165899A824179112A5E52501D96 /* Frameworks */,
+				20FA691B8B7935FE53B24B94FD45760D /* Resources */,
+				FD5222A0B48E82833827C436FD1E9A25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83106FFBCF676E0D7EDC19872B75452E /* PBXTargetDependency */,
+				83664C647B7FF2D326FD96ECA380742A /* PBXTargetDependency */,
+			);
+			name = AeonKit;
+			productName = AeonKit;
+			productReference = DCB44AE81870F42F4491B07009074569 /* AeonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3617B050034D4AAB66BD1A8A457DAA0 /* AeonKit-AeonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937835C248A8BBD44A387961D8E11B54 /* Build configuration list for PBXNativeTarget "AeonKit-AeonKit" */;
+			buildPhases = (
+				9946B2E48FBB16C765BBBCE9B8A2D708 /* Sources */,
+				6A8EEADEDD3C7D8C12E0F0A8EAE65EC0 /* Frameworks */,
+				6D6293A40BB82005189224B76CE6818C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AeonKit-AeonKit";
+			productName = "AeonKit-AeonKit";
+			productReference = 2F96A6ABE9C756619D29C8E2C69DE6FE /* AeonKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 81DB5375BD07372C8A24F456939F6B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD50930D97F04E3E0C60B6EEC004A9E /* AeonKit */,
+				E3617B050034D4AAB66BD1A8A457DAA0 /* AeonKit-AeonKit */,
+				63A0DE689203945466C16F4B4E8E34DC /* konashi-ios-sdk */,
+				5F511353B2F5B8CBD721E5652D419FFE /* Pods-AeonKit_Example */,
+				7306F59517F8A9B77819896ACAA43287 /* Pods-AeonKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FA691B8B7935FE53B24B94FD45760D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5AABCA6201768F2931B1D7E5BB3F6E /* AeonKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6293A40BB82005189224B76CE6818C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C3CD19F8812F45DAE5E1448456FE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F195E6400E2FB05CCD9322129B2F481F /* Pods-AeonKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E587C7E3A31DC14DCFC6A45246F2A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66EFAE8F22C2443A0D34832D7077B59 /* CBPeripheral+Konashi.m in Sources */,
+				B6DF15B0169F91755D80BCE4F3E44E98 /* CBService+Konashi.m in Sources */,
+				1B6E71CDBC787052DE5115E34D3D7374 /* CBUUID+Konashi.m in Sources */,
+				34390A70421DD18FC9F250144F750157 /* KNSCentralManager+UI.m in Sources */,
+				F87B940E4A8D8F8FA8844E3A9FF12520 /* KNSCentralManager.m in Sources */,
+				96CAA93CF74E28CAFE150628AB483EDE /* KNSHandlerManager.m in Sources */,
+				698A5917B8B33A3B3223BB18D59F215D /* KNSKonashiPeripheralImpl.m in Sources */,
+				91DAA2DD4B7E5A8DB67CBC2EA67C63F1 /* KNSKoshianPeripheralImpl.m in Sources */,
+				C923DBEE9FA4D1B2BE61D5B55F8ADA84 /* KNSPeripheral.m in Sources */,
+				8D50A70330362B9F920FE0C8E4FEDCFF /* KNSPeripheralBaseImpl.m in Sources */,
+				03043584A483FA864ED744DD6AEB0B31 /* Konashi+ACDrive.m in Sources */,
+				D99AB5B0C88CCD198C63BDC66EE6240C /* Konashi+ADC.m in Sources */,
+				5B0F65735F45119E1EDA723D03652C20 /* Konashi+Grove.m in Sources */,
+				C351318D8DF90B3A1884A191B7B44AFC /* Konashi+JavaScriptBindings.m in Sources */,
+				A261D66CE3621C5953A43DB60DE81B9D /* konashi-ios-sdk-dummy.m in Sources */,
+				7C844DBA993EE86E1C34B971801E54A7 /* Konashi.m in Sources */,
+				B0D29936A4156BB70836C9C4B77CB574 /* KonashiUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A704A6E1B96C57BA4BD0DBEE1625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C670285AAA7118D7C2E0E9D7FB99660A /* Pods-AeonKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9946B2E48FBB16C765BBBCE9B8A2D708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35E3EB384DC20D58210E3F62914F2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94BDC291C94D9C500A19658 /* ANKDepthSensor.m in Sources */,
+				E94BDC4B1C94DAFF00A19658 /* ANKSoftCounterModule.m in Sources */,
+				15B864EC3DE0C651A78122C2C747D41E /* AeonKit-dummy.m in Sources */,
+				E94BDC471C94DAE300A19658 /* ANKSoftConditionModule.m in Sources */,
+				E94BDC531C94DB1400A19658 /* ANKSoftValueModule.m in Sources */,
+				E94BDC4F1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m in Sources */,
+				E94BDC2F1C94D9C500A19658 /* ANKTouchSensor.m in Sources */,
+				E94BDC431C94DAD700A19658 /* ANKSoftLogicModule.m in Sources */,
+				E94BDC231C94D9C500A19658 /* ANKDisplay.m in Sources */,
+				E94BDC371C94D9F100A19658 /* ANKModule.m in Sources */,
+				E94BDC2D1C94D9C500A19658 /* ANKTiltSensor.m in Sources */,
+				E94BDC331C94D9C500A19658 /* ANKSoftModule.m in Sources */,
+				E94BDC251C94D9C500A19658 /* ANKHapticDisplay.m in Sources */,
+				E94BDC2B1C94D9C500A19658 /* ANKSensor.m in Sources */,
+				E94BDC271C94D9C500A19658 /* ANKOLEDDisplay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288ECA1893D8A0AF992F81DFD697D898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AeonKit;
+			target = DBD50930D97F04E3E0C60B6EEC004A9E /* AeonKit */;
+			targetProxy = 7503648F892DE05F5BA060801CBE536A /* PBXContainerItemProxy */;
+		};
+		2C04091350161A01EE307CCAB2ACDF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "konashi-ios-sdk";
+			target = 63A0DE689203945466C16F4B4E8E34DC /* konashi-ios-sdk */;
+			targetProxy = 110AE27C0CBDE13705005C75D5C8109B /* PBXContainerItemProxy */;
+		};
+		3A1E87FAE9D05A3B138630A23922FF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AeonKit;
+			target = DBD50930D97F04E3E0C60B6EEC004A9E /* AeonKit */;
+			targetProxy = 7447E49E7C448B5EDF05D9D4A28C1241 /* PBXContainerItemProxy */;
+		};
+		83106FFBCF676E0D7EDC19872B75452E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AeonKit-AeonKit";
+			target = E3617B050034D4AAB66BD1A8A457DAA0 /* AeonKit-AeonKit */;
+			targetProxy = 5CED5CA7E29E418880BF1F93B4D52745 /* PBXContainerItemProxy */;
+		};
+		83664C647B7FF2D326FD96ECA380742A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "konashi-ios-sdk";
+			target = 63A0DE689203945466C16F4B4E8E34DC /* konashi-ios-sdk */;
+			targetProxy = 55E50FB186FE659CA60D6A0B528A6B74 /* PBXContainerItemProxy */;
+		};
+		BF3B61E38F3586056C542F9FE28ADCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "konashi-ios-sdk";
+			target = 63A0DE689203945466C16F4B4E8E34DC /* konashi-ios-sdk */;
+			targetProxy = C15F55FF8F8FB77C8470409D43ADCEE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09EDED9D1BCE5A3B46C10A85C23BBDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A05A29F1A2C4489CB88C8AD30E6277 /* AeonKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AeonKit/AeonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AeonKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AeonKit/AeonKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = AeonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0F224918947F7DD4518E72A52D0D3133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE18FDF79D71631AA3D2CA0D4919B0CE /* Pods-AeonKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AeonKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AeonKit_Tests/Pods-AeonKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AeonKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26C14E49E31D546482F89B818E8401B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A05A29F1A2C4489CB88C8AD30E6277 /* AeonKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AeonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2BCE86296BE9096ABF115BCE14F79CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A05A29F1A2C4489CB88C8AD30E6277 /* AeonKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AeonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4E752F152AAFE814F61DDBF5FEB5EFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3A93577E4D4909670AC720DE48CBB4 /* Pods-AeonKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AeonKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AeonKit_Tests/Pods-AeonKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AeonKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94F6F69079BC70CB26EC931AF65AFA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFDCD2758648482FAB76AF8A98756B6 /* konashi-ios-sdk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/konashi-ios-sdk/konashi-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/konashi-ios-sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/konashi-ios-sdk/konashi-ios-sdk.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = konashi_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98AF544B86B3171AD2E6D05956915E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFDCD2758648482FAB76AF8A98756B6 /* konashi-ios-sdk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/konashi-ios-sdk/konashi-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/konashi-ios-sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/konashi-ios-sdk/konashi-ios-sdk.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = konashi_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7199464F88CCDABB0389DF96A9C27AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB92D2A045D6CB85D4E2BE89D4FBFF33 /* Pods-AeonKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AeonKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AeonKit_Example/Pods-AeonKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AeonKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2386C0C3C1200E3417C850024A3E830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C8E90A0FC5CD83784EB01F0090501D /* Pods-AeonKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AeonKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AeonKit_Example/Pods-AeonKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AeonKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E88937CA9C76667288EA7E68B13C4C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A05A29F1A2C4489CB88C8AD30E6277 /* AeonKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AeonKit/AeonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AeonKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AeonKit/AeonKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = AeonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8ED7BE5101DDF518C508EC6E28C788 /* Build configuration list for PBXNativeTarget "AeonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88937CA9C76667288EA7E68B13C4C06 /* Debug */,
+				09EDED9D1BCE5A3B46C10A85C23BBDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFF505677C29C90EEE1133F61DC1FE2 /* Build configuration list for PBXNativeTarget "Pods-AeonKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7199464F88CCDABB0389DF96A9C27AC /* Debug */,
+				E2386C0C3C1200E3417C850024A3E830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AE9DC81E66EC3046C0392B16BDF7C5 /* Build configuration list for PBXNativeTarget "konashi-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AF544B86B3171AD2E6D05956915E49 /* Debug */,
+				94F6F69079BC70CB26EC931AF65AFA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5DD32C68FF76E234BD059AA0319815 /* Build configuration list for PBXNativeTarget "Pods-AeonKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F224918947F7DD4518E72A52D0D3133 /* Debug */,
+				4E752F152AAFE814F61DDBF5FEB5EFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937835C248A8BBD44A387961D8E11B54 /* Build configuration list for PBXNativeTarget "AeonKit-AeonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C14E49E31D546482F89B818E8401B7 /* Debug */,
+				2BCE86296BE9096ABF115BCE14F79CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
