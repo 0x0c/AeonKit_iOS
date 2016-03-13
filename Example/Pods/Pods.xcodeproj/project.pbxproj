@@ -82,7 +82,9 @@
 		E94BDC4F1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC4D1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.m */; };
 		E94BDC521C94DB1400A19658 /* ANKSoftValueModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC501C94DB1400A19658 /* ANKSoftValueModule.h */; };
 		E94BDC531C94DB1400A19658 /* ANKSoftValueModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC511C94DB1400A19658 /* ANKSoftValueModule.m */; };
-		EC857FD4CF8B509D002157E4C4089879 /* ANKModuleCommunicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 046CC4A28C25FC14AA0F6EA235B7F149 /* ANKModuleCommunicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94BDC5B1C95708300A19658 /* ANKModuleImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = E94BDC591C95708300A19658 /* ANKModuleImporter.h */; };
+		E94BDC5C1C95708300A19658 /* ANKModuleImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E94BDC5A1C95708300A19658 /* ANKModuleImporter.m */; };
+		E9CCC01E1C9595A9004E06E8 /* ANKModuleCommunicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CCC01D1C9595A9004E06E8 /* ANKModuleCommunicationProtocol.h */; };
 		EEAC4955EF0E6C741383DC675EE4BAA9 /* Konashi+ACDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = C09A6B00CAF7430EC10073449B0DD0A9 /* Konashi+ACDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEDD9029C6790EDA68DAD6A3C9374D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78115D1C0EA7699D2E6A80908E5038F0 /* Foundation.framework */; };
 		F195E6400E2FB05CCD9322129B2F481F /* Pods-AeonKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B7209E810DCFF8009444AC54AC335 /* Pods-AeonKit_Tests-dummy.m */; };
@@ -137,7 +139,6 @@
 
 /* Begin PBXFileReference section */
 		03B4324461173A57238F909B2FEDD453 /* konashi-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "konashi-ios-sdk-dummy.m"; sourceTree = "<group>"; };
-		046CC4A28C25FC14AA0F6EA235B7F149 /* ANKModuleCommunicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANKModuleCommunicationProtocol.h; sourceTree = "<group>"; };
 		066A9972EBD3D573EFF8C1C0627614BE /* KNSPeripheralImplProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNSPeripheralImplProtocol.h; path = Konashi/Konashi/Impl/KNSPeripheralImplProtocol.h; sourceTree = "<group>"; };
 		08349EC80A4E0F8EE98493D8B844F5A3 /* CBService+Konashi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBService+Konashi.h"; path = "Konashi/Konashi/Category/CoreBluetooth/CBService+Konashi.h"; sourceTree = "<group>"; };
 		0F78C511F5C859F558089DDCD4FF4E22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -238,6 +239,9 @@
 		E94BDC501C94DB1400A19658 /* ANKSoftValueModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKSoftValueModule.h; sourceTree = "<group>"; };
 		E94BDC511C94DB1400A19658 /* ANKSoftValueModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKSoftValueModule.m; sourceTree = "<group>"; };
 		E94BDC541C953F2F00A19658 /* AeonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AeonKit.h; sourceTree = "<group>"; };
+		E94BDC591C95708300A19658 /* ANKModuleImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKModuleImporter.h; sourceTree = "<group>"; };
+		E94BDC5A1C95708300A19658 /* ANKModuleImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANKModuleImporter.m; sourceTree = "<group>"; };
+		E9CCC01D1C9595A9004E06E8 /* ANKModuleCommunicationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANKModuleCommunicationProtocol.h; sourceTree = "<group>"; };
 		F0E465FA69E7D595D506AB48FDA6DC05 /* CBUUID+Konashi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+Konashi.m"; path = "Konashi/Konashi/Category/CoreBluetooth/CBUUID+Konashi.m"; sourceTree = "<group>"; };
 		F1A3BF5538200479532766AE2DEE7058 /* Pods_AeonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75269E9BF1D61ADA872C39FBC844B25 /* CBPeripheral+Konashi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+Konashi.h"; path = "Konashi/Konashi/Category/CoreBluetooth/CBPeripheral+Konashi.h"; sourceTree = "<group>"; };
@@ -317,7 +321,8 @@
 		39F2C65FDB8D0CAED3E36B4ED46E265A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				046CC4A28C25FC14AA0F6EA235B7F149 /* ANKModuleCommunicationProtocol.h */,
+				E9CCC01D1C9595A9004E06E8 /* ANKModuleCommunicationProtocol.h */,
+				E94BDC581C95707700A19658 /* ModuleImporter */,
 				E94BDC071C94D9C500A19658 /* HardwareModule */,
 				E94BDC1D1C94D9C500A19658 /* SoftModule */,
 				E94BDC541C953F2F00A19658 /* AeonKit.h */,
@@ -587,6 +592,15 @@
 			path = ValueModule;
 			sourceTree = "<group>";
 		};
+		E94BDC581C95707700A19658 /* ModuleImporter */ = {
+			isa = PBXGroup;
+			children = (
+				E94BDC591C95708300A19658 /* ANKModuleImporter.h */,
+				E94BDC5A1C95708300A19658 /* ANKModuleImporter.m */,
+			);
+			path = ModuleImporter;
+			sourceTree = "<group>";
+		};
 		EA2958220D88461E6E71D04F0D08B1F2 /* AeonKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -713,6 +727,7 @@
 				E94BDC421C94DAD700A19658 /* ANKSoftLogicModule.h in Headers */,
 				E94BDC221C94D9C500A19658 /* ANKDisplay.h in Headers */,
 				E94BDC2A1C94D9C500A19658 /* ANKSensor.h in Headers */,
+				E9CCC01E1C9595A9004E06E8 /* ANKModuleCommunicationProtocol.h in Headers */,
 				E94BDC521C94DB1400A19658 /* ANKSoftValueModule.h in Headers */,
 				E94BDC281C94D9C500A19658 /* ANKDepthSensor.h in Headers */,
 				E94BDC261C94D9C500A19658 /* ANKOLEDDisplay.h in Headers */,
@@ -720,9 +735,9 @@
 				2C990084447B700DEFA23597647E005B /* AeonKit-umbrella.h in Headers */,
 				E94BDC2C1C94D9C500A19658 /* ANKTiltSensor.h in Headers */,
 				E94BDC321C94D9C500A19658 /* ANKSoftModule.h in Headers */,
+				E94BDC5B1C95708300A19658 /* ANKModuleImporter.h in Headers */,
 				E94BDC2E1C94D9C500A19658 /* ANKTouchSensor.h in Headers */,
 				E94BDC4A1C94DAFF00A19658 /* ANKSoftCounterModule.h in Headers */,
-				EC857FD4CF8B509D002157E4C4089879 /* ANKModuleCommunicationProtocol.h in Headers */,
 				E94BDC4E1C94DB0800A19658 /* ANKSoftHapticPatternGeneratorModule.h in Headers */,
 				E94BDC361C94D9F100A19658 /* ANKModule.h in Headers */,
 				E94BDC461C94DAE300A19658 /* ANKSoftConditionModule.h in Headers */,
@@ -924,6 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94BDC5C1C95708300A19658 /* ANKModuleImporter.m in Sources */,
 				E94BDC291C94D9C500A19658 /* ANKDepthSensor.m in Sources */,
 				E94BDC4B1C94DAFF00A19658 /* ANKSoftCounterModule.m in Sources */,
 				15B864EC3DE0C651A78122C2C747D41E /* AeonKit-dummy.m in Sources */,

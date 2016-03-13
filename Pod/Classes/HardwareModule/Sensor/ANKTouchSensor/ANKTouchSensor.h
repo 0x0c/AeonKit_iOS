@@ -10,11 +10,11 @@
 
 @interface ANKTouchSensor : ANKModule
 
-@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> positionOutput;
-@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> pressureOutput;
+@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> position;
+@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> pressure;
 @property (nonatomic, assign) BOOL feedbackEnabled;
-@property (nonatomic, readonly) NSInteger pressure;
-@property (nonatomic, readonly) NSInteger position;
+@property (nonatomic, readonly) NSInteger pressureValue;
+@property (nonatomic, readonly) NSInteger positionValue;
 @property (nonatomic, copy) void (^positionChangedHandler)(NSInteger position);
 @property (nonatomic, copy) void (^pressureChangedHandler)(NSInteger pressure);
 

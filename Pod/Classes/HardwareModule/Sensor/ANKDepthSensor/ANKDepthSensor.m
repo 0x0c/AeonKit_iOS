@@ -23,12 +23,11 @@
 			[bself uartMode:KonashiUartModeEnable baudrate:KonashiUartBaudrateRate9K6];
 			[bself setUartRxCompleteHandler:^(NSData *data) {
 				Byte op = *(Byte *)([data bytes]);
-				bself.depth = (NSInteger)op;
-				NSLog(@"%ld", bself.depth);
+				bself.depthValue = (NSInteger)op;
 				if (bself.depthChangedHandler) {
-					bself.depthChangedHandler(bself.depth);
+					bself.depthChangedHandler(bself.depthValue);
 				}
-				[bself sendData:@(bself.depth)];
+				[bself sendData:@(bself.depthValue)];
 			}];
 		}];
 	}
@@ -36,15 +35,15 @@
 	return self;
 }
 
-- (void)setDepth:(NSInteger)depth
+- (void)setDepthValue:(NSInteger)depthValue
 {
-	_depth = depth;
-	[self sendData:@(depth)];
+	_depthValue = depthValue;
+	[self sendData:@(depthValue)];
 }
 
 - (void)sendData:(id)data
 {
-	[self.output receiveDataFromModule:self data:data];
+	[self.depth receiveDataFromModule:self data:data];
 }
 
 @end

@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		7DEAD2B76687E657150FBA67 /* Pods_AeonKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06DE15FF47DDAD8A7331C97 /* Pods_AeonKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E9CCC0141C958606004E06E8 /* graph.amg in Resources */ = {isa = PBXBuildFile; fileRef = E9CCC0131C958606004E06E8 /* graph.amg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		D1E1B44697A143FE051CED68 /* Pods-AeonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeonKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AeonKit_Tests/Pods-AeonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D66450F1D29B09236E2BD73A /* Pods-AeonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeonKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AeonKit_Tests/Pods-AeonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E768C81C6B99FE5F20F95FCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9CCC0131C958606004E06E8 /* graph.amg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = graph.amg; path = ../../../../../../openFrameworks/of_v0.9.0_osx_release_boost_1_59_0/apps/myApps/AeonNodeEditor/bin/data/graph.amg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				E9CCC0131C958606004E06E8 /* graph.amg */,
 				CF47AA4C3B7E6570D6D02335 /* AeonKit.podspec */,
 				E768C81C6B99FE5F20F95FCC /* README.md */,
 				C9F486BB2BDD9E09BC5616EB /* LICENSE */,
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				E9CCC0141C958606004E06E8 /* graph.amg in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

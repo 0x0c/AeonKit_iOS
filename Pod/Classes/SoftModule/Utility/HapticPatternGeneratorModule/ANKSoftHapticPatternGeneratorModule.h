@@ -13,8 +13,8 @@
 
 @interface ANKSoftHapticPatternGeneratorModule : NSObject <ANKModuleCommunicationProtocol>
 
-@property (nonatomic, assign) ANKHapticPattern pattern;
+@property (nonatomic, assign) ANKHapticPattern hapticPattern;
 @property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input;
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> output;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> pattern;
 
 @end

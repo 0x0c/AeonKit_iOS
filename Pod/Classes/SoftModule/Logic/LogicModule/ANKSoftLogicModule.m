@@ -10,16 +10,13 @@
 
 @implementation ANKSoftLogicModule
 
+@synthesize identifier = _identifier;
+
 #pragma mark - ANKModuleCommunicationProtocol
 
 - (void)sendData:(id)data
 {
 	[self.output receiveDataFromModule:self data:data];
-}
-
-- (void)receiveDataFromModule:(ANKModule *)modul data:(id)data
-{
-	
 }
 
 @end
@@ -55,6 +52,12 @@
 
 - (void)receiveDataFromModule:(ANKModule *)module data:(id)data
 {
+	if (self.in1 == module) {
+		self.input1Value = [data boolValue];
+	}
+	else {
+		self.input2Value = [data boolValue];
+	}
 	[self sendData:@(self.input1Value & self.input2Value)];
 }
 
@@ -73,6 +76,12 @@
 
 - (void)receiveDataFromModule:(ANKModule *)module data:(id)data
 {
+	if (self.in1 == module) {
+		self.input1Value = [data boolValue];
+	}
+	else {
+		self.input2Value = [data boolValue];
+	}
 	[self sendData:@(self.input1Value | self.input2Value)];
 }
 
@@ -91,6 +100,12 @@
 
 - (void)receiveDataFromModule:(ANKModule *)module data:(id)data
 {
+	if (self.in1 == module) {
+		self.input1Value = [data boolValue];
+	}
+	else {
+		self.input2Value = [data boolValue];
+	}
 	[self sendData:@(self.input1Value ^ self.input2Value)];
 }
 

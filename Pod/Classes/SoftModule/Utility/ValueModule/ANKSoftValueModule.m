@@ -10,6 +10,8 @@
 
 @implementation ANKSoftValueModule
 
+@synthesize identifier = _identifier;
+
 - (void)setModuleValue:(CGFloat)moduleValue
 {
 	_moduleValue = moduleValue;

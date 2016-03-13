@@ -10,11 +10,13 @@
 
 @implementation ANKSoftCounterModule
 
+@synthesize identifier = _identifier;
+
 #pragma mark - ANKModuleCommunicationProtocol
 
 - (void)sendData:(id)data
 {
-	[self.outputConnector receiveDataFromModule:self data:data];
+	[self.output receiveDataFromModule:self data:data];
 }
 
 - (void)receiveDataFromModule:(ANKModule *)module data:(id)data

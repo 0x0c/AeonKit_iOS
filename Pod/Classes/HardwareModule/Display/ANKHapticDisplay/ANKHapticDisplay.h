@@ -17,6 +17,8 @@ typedef NS_ENUM(NSUInteger, ANKHapticPattern) {
 
 @interface ANKHapticDisplay : ANKModule
 
+@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> pattern;
+
 - (void)vibrateWithPattern:(ANKHapticPattern)pattern;
 - (void)vibrateWithDurationPattern:(NSArray *)duration completionHandler:(void (^)())handler;
 - (void)vibrateForDuration:(NSTimeInterval)duration completionHandler:(void (^)())handler;

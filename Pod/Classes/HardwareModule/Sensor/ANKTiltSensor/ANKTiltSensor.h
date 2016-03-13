@@ -12,7 +12,7 @@
 
 extern NSString *const ANKTiltSensorStepUpNotifiction;
 
-@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> tiltOutput;
+@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> tilt;
 @property (nonatomic, strong) void (^valueChangedHandler)(NSInteger tiltCount);
 @property (nonatomic, readonly) BOOL high;
 @property (nonatomic, assign) NSTimeInterval sleepInterval;

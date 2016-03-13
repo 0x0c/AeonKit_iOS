@@ -51,7 +51,7 @@ NSString *const ANKTiltSensorStepUpNotifiction = @"ANKTiltSensorStepUpNotifictio
 
 - (void)sendData:(id)data
 {
-	[self.tiltOutput receiveDataFromModule:self data:data];
+	[self.tilt receiveDataFromModule:self data:data];
 }
 
 @end

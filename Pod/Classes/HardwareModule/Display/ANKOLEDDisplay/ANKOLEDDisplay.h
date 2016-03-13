@@ -10,6 +10,8 @@
 
 @interface ANKOLEDDisplay : ANKModule
 
+@property (nonatomic, readonly) id<ANKModuleCommunicationProtocol> str;
+
 - (void)putText:(NSString *)text;
 
 @end

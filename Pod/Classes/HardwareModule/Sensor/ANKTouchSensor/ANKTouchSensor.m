@@ -10,8 +10,8 @@
 
 @interface ANKTouchSensor ()
 
-@property (nonatomic, readwrite) NSInteger pressure;
-@property (nonatomic, readwrite) NSInteger position;
+@property (nonatomic, readwrite) NSInteger pressureValue;
+@property (nonatomic, readwrite) NSInteger positionValue;
 
 @end
 
@@ -29,18 +29,18 @@
 				BOOL type = op & 0b10000000;
 				UInt8 value = op & 0b01111111;
 				if (type) {
-					bself.pressure = value;
+					bself.pressureValue = value;
 					if (bself.pressureChangedHandler) {
 						bself.pressureChangedHandler(value);
 					}
-					[bself.positionOutput receiveDataFromModule:bself data:@(value)];
+					[bself.pressure receiveDataFromModule:bself data:@(value)];
 				}
 				else {
-					bself.position = value;
+					bself.positionValue = value;
 					if (bself.positionChangedHandler) {
 						bself.positionChangedHandler(value);
 					}
-					[bself.pressureOutput receiveDataFromModule:bself data:@(value)];
+					[bself.position receiveDataFromModule:bself data:@(value)];
 				}
 			}];
 		}];

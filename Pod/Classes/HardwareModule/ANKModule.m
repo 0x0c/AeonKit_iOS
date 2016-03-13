@@ -10,6 +10,8 @@
 
 @implementation ANKModule
 
+@synthesize identifier = _identifier;
+
 - (_Nonnull instancetype)initWithModuleName:(NSString * _Nonnull )moduleName
 {
 	self = [super init];

@@ -23,21 +23,21 @@
 
 @interface ANKSoftLogicANDModule : ANKSoftLogicModule
 
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input1;
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input2;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in1;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in2;
 
 @end
 
 @interface ANKSoftLogicORModule : ANKSoftLogicModule
 
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input1;
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input2;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in1;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in2;
 
 @end
 
 @interface ANKSoftLogicXORModule : ANKSoftLogicModule
 
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input1;
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input2;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in1;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in2;
 
 @end

@@ -10,18 +10,20 @@
 
 @implementation ANKSoftHapticPatternGeneratorModule
 
+@synthesize identifier = _identifier;
+
 #pragma mark - ANKModuleCommunicationProtocol
 
 - (void)sendData:(id)data
 {
-	[self.output receiveDataFromModule:self data:data];
+	[self.pattern receiveDataFromModule:self data:data];
 }
 
 - (void)receiveDataFromModule:(ANKModule *)module data:(id)data
 {
 	BOOL input = (BOOL)[data boolValue];
 	if (input) {
-		[self sendData:@(self.pattern)];
+		[self sendData:@(self.hapticPattern)];
 	}
 }
 

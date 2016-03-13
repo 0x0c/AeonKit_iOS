@@ -17,6 +17,8 @@
 
 @implementation ANKSoftConditionModule
 
+@synthesize identifier = _identifier;
+
 #pragma mark - ANKModuleCommunicationProtocol
 
 - (void)sendData:(id)data
@@ -26,7 +28,7 @@
 
 - (void)receiveDataFromModule:(ANKModule *)module data:(id)data
 {
-	if (module == self.input1) {
+	if (module == self.in1) {
 		self.input1Value = [data floatValue];
 	}
 	else {

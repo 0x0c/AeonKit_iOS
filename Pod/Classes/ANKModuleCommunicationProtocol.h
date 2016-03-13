@@ -12,6 +12,8 @@
 
 @protocol ANKModuleCommunicationProtocol <NSObject>
 
+@property (nonatomic, strong) NSString * _Nonnull identifier;
+
 @required
 - (void)sendData:(id)data;
 - (void)receiveDataFromModule:(id<ANKModuleCommunicationProtocol>)module data:(id)data;

@@ -12,6 +12,6 @@
 @interface ANKSoftCounterModule : NSObject <ANKModuleCommunicationProtocol>
 
 @property (nonatomic, assign) NSInteger count;
-@property (nonatomic, strong) ANKModule *outputConnector;
+@property (nonatomic, strong) ANKModule *output;
 
 @end

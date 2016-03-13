@@ -21,8 +21,8 @@ typedef NS_ENUM(NSUInteger, ANKSoftConditionModuleCmparisonType) {
 @interface ANKSoftConditionModule : NSObject <ANKModuleCommunicationProtocol>
 
 @property (nonatomic, assign) ANKSoftConditionModuleCmparisonType comparisonType;
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input1;
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> input2;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in1;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> in2;
 @property (nonatomic, strong) id<ANKModuleCommunicationProtocol> output;
 
 @end

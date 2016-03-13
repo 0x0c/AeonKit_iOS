@@ -10,8 +10,8 @@
 
 @interface ANKDepthSensor : ANKModule
 
-@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> output;
-@property (nonatomic, assign) NSInteger depth;
+@property (nonatomic, strong) id<ANKModuleCommunicationProtocol> depth;
+@property (nonatomic, assign) NSInteger depthValue;
 @property (nonatomic, copy) void (^depthChangedHandler)(NSInteger depth);
 
 @end
